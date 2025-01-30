@@ -3,16 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Data Validation in Forms</title>
+    <title>Submitting Forms</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
     />
   </head>
   <body>
-    <!-- There exists some basic validation in HTML5. Complicated validation is in JS -->
-    <form>
-      <input type="text" required minlength="10" maxlength="10" />
+    <!-- the form action takes a url that sends the data to a server side technology-->
+    <form action="" method="get">
+      <input type="text" placeholder="Name" name="name" />
+      <input type="email" placeholder="Email" name="email" />
       <button type="submit">Submit</button>
     </form>
   </body>
