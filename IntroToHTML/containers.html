@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Containers</title>
+    <style>
+      .product {
+        background-color: gold;
+        width: 300px;
+      }
+      .highlight {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Div is a container. fills up the width of the page. It's a block level element-->
+    <div class="product">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <a href="https://www.google.com"> Google </a>
+    </div>
+    <div class="product">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <a href="https://www.google.com"> Google </a>
+    </div>
+    <!-- 
+    span is another generic container element. 
+    the div is block level so it breaks the sentence with lorum
+    span is an in-line element though
+    -->
+    <p><div class="highlight">Lorem</div>ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, quibusdam!</p>
+    <p><span class="highlight">Lorem</span> ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, voluptatibus.</p>
+    </body>
+</html>

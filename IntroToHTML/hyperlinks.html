@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyperlinks!</title>
+    <style>
+      img {
+        width: 80px;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- we can use relative or absolute urls -->
+    <!-- currently using relative urls. -->
+    <a href="index.html">Visit my first HTML page?</a>
+    <!-- we can hyperlink images as well. -->
+    <a href="index.html"><img src="media/wolf.png" alt="" /></a>
+    <!-- we can hyperlink to images or other files like pdfs, not exclusively web pages. -->
+    <p><a href="media/wolf.png">Want to see a wolf?</a></p>
+    <!-- we can also make it so the user downloads the file instead of visiting it. -->
+    <p><a href="media/wolf.png" download>Download the wolf?</a></p>
+    <!-- we can also link to different parts of the page.-->
+    <a href="#section-two">Jump to part 2</a>
+    <!-- to visit external pages, must use absolute links by using https -->
+    <a href="https://google.com">Google in this tab</a>
+    <!-- add the target attribute to open in a new tab -->
+    <a href="https://google.com" target="_blank">Google in a new tab</a>
+    <!-- we can link to emails, using the following -->
+    <a href="mailto: wcielen68@gmail.com">Email me!</a>
+    <h2>Part 1</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eligendi
+      cupiditate, quod iste rem in voluptatibus neque corrupti deleniti nemo.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ipsa,
+      accusantium nobis soluta veritatis facere nihil at alias sint! Iure, dicta
+      voluptas? Ex, quaerat fugiat beatae eum repellendus repellat incidunt!
+    </p>
+    <h2 id="section-two">Part 2</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem non
+      quidem omnis laboriosam obcaecati ex vitae officiis laborum quis! Lorem
+      ipsum dolor sit amet, consectetur adipisicing elit. Quos veritatis totam
+      ex, hic nihil cupiditate mollitia magnam, numquam, perferendis nostrum
+      omnis blanditiis obcaecati. Aspernatur at est quam ab saepe. Neque.
+    </p>
+    <!-- an empty # key jumps you to the top of the page. -->
+    <a href="#">Jump to Top</a>
+  </body>
+</html>
+<!-- if we want to go up in hierarchy we must use ../ to go up a level -->
+<!-- an absolute url starts with a / , meaning we start at the root level of the website. -->
+
+<!-- 
+a is short for an anchor element.
+the href attribute of an anchor is where the hyperlink leads to.
+-->
