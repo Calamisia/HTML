@@ -7,11 +7,12 @@
   </head>
   <body>
     <form>
-      <input type="text" list="countries" />
+      <input type="text" list="countries" autocomplete="off" />
+      <!-- this proposes a list of suggestions -->
       <datalist id="countries">
-        <option>Australia</option>
-        <option>Canada</option>
-        <option>USA</option>
+        <option data-value="1">Australia</option>
+        <option data-value="2">Canada</option>
+        <option data-value="3">USA</option>
       </datalist>
     </form>
   </body>
